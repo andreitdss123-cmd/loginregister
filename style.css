@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to right, #512b62, #3c0a53);
+}
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+    height: 15px;
+    border-radius: 65px;
+    border: none;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    border-radius: 55px;
+}

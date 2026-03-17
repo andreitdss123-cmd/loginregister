@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Autentificare</h1>
+
+    <div id="auth-container">
+        <h2>Login</h2>
+        <input type="email" id="login-email" placeholder="Email">
+        <input type="password" id="login-password" placeholder="Parola">
+        <button id="loginBtn">Login</button>
+
+        <h2>Register</h2>
+        <input type="email" id="register-email" placeholder="Email">
+        <input type="password" id="register-password" placeholder="Parola">
+        <button id="registerBtn">Register</button>
+
+        <h2>Login cu Google</h2>
+        <button id="googleLoginBtn">Google Login</button>
+    </div>
+
+    <!-- Firebase compat -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
